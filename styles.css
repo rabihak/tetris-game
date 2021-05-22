@@ -1,0 +1,80 @@
+body {
+  /*set font */
+  text-decoration: none;
+  background-color: #2b2d30;
+  background: radial-gradient(
+      ellipse at 50%,
+      #495057 0%,
+      #33383d 50%,
+      #1b1e21 100%
+    )
+    100% 200%;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-shadow: #1b1e21 10px;
+}
+
+#maindiv {
+  /* first parent div */
+  max-width: 1100px;
+  min-width: 900px;
+  height: 100%;
+  margin-top: 20px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto; /*center the parent div */
+}
+
+
+
+a {
+  text-decoration: none;
+}
+.canvas {
+  background-color: #1b1e21;
+  margin-left: 100px;
+}
+.wrapper{
+  display: flex;
+}
+.score {
+  color: #56bead;
+  margin-left: 60px;
+}
+#scores-wrapper{
+  background-color: #1b1e21;
+  margin-left: 30px;
+  width: 215px;
+  height: 200px;
+  border-radius: 50px;
+  display:  block;
+}
+
+.grid{
+  margin-left: 200px;
+  width: 200px;
+  height: 400px;
+  background-color: #1b1e21;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.grid div{
+  height: 20px;
+  width: 20px;
+
+}
+.shapes{
+  background-color: green;
+}
+.btn{
+  color: #56bead;
+  margin-left: 60px;
+  background-color:#4d4b4b;
+  border-style: hidden;
+  border-radius: 10px;
+  height: 27px;
+  width: 70px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
